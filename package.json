@@ -1,0 +1,25 @@
+{
+  "name": "interactive-card-details-form-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive card details form coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss assets/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albana-meloni/card-details-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albana-meloni/card-details-form/issues"
+  },
+  "homepage": "https://github.com/albana-meloni/card-details-form#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
